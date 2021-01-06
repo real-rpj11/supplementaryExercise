@@ -1,11 +1,13 @@
 //Looping a triangle
 function triangleHash() {
-    let str = '';
+    console.log("1. Looping a triangle")
+    let hash = '';
     for (i = 0; i <= 7; i++) {
         for (j = 1; j <= i; j++) {
-            str += '#';
+            hash += '#';
         }
-        str += '\n';
+        hash += '\n';
     }
-    console.log(str);
+    console.log(hash);
 }
+triangleHash()
